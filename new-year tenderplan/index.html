@@ -100,9 +100,25 @@
         </section>
 <!-- Форма -->
         <section>
-            <form>
+            <form class="registration" method="post" action="#">
                 <h2>Подарок от Тендерплана!</h2>
-                
+                <p>
+                    <label class="visually-hidden" for="user-id">Как вас зовут?</label>
+                    <input id="user-id" type="text" name="user-id" placeholder="Имя и фамилия">
+                </p>
+                <p>
+                    <label class="visually-hidden" for="company-name">Название компании</label>
+                    <input id="company-name" type="text" name="company-name" placeholder="Название компании">
+                </p>
+                <p>
+                    <label class="visually-hidden" for="user-email">Ваша почта</label>
+                    <input id="user-email" type="email" name="user-id" placeholder="e-mail">
+                </p>
+                <p>
+                    <label class="visually-hidden" for="user-tel">Ваш телефон</label>
+                    <input id="user-tel" type="tel" name="user-tel" placeholder="Телефон">
+                </p>
+                <button type="submit">Попробовать бесплатно</button>
             </form>
         </section>
 
