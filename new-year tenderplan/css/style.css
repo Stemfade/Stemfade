@@ -2,8 +2,21 @@ body {
     margin: 0;
     padding: 0%;
 
-    font-family: 
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 160%;
+    font-weight: 400;
+    color: #4B5D68;
+    text-transform: none;
+
+    background-color: white;
 }
+
+a {
+    text-decoration: none;
+}
+
 
 
 .visually-hidden {
