@@ -13,6 +13,18 @@ body {
     background-color: white;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main-header {
+    background-color: white;
+}
+
 h1 {
     font-family: Roboto;
     font-style: normal;
@@ -39,9 +51,54 @@ h1 {
     color: #212353;
 }
 
-.rates-list:first-child {
+.list-item:first-child {
     background: #7854F7;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+
+    text-align: center;
+
+    color: #FFFFFF;
 }
+
+.item-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.item-startnow {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.item-description-free {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #FFFFFF;
+    list-style-image: url("img/Checkmark-white.svg");
+}
+
+
 
 .visually-hidden {
     position: absolute;
@@ -55,9 +112,7 @@ h1 {
     overflow: hidden;
 }
 
-.main-header {
-    background-color: white;
-}
+
 
 .header-navigation a {
     font-family: Roboto;
@@ -89,10 +144,3 @@ h1 {
     color: #000000;
 }
 
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
