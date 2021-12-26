@@ -25,6 +25,16 @@ a {
     background-color: white;
 }
 
+.header-navigation a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #4F4F4F;
+}
+
 h1 {
     font-family: Roboto;
     font-style: normal;
@@ -95,10 +105,27 @@ h1 {
     line-height: 14px;
 
     color: #FFFFFF;
-    list-style-image: url("img/Checkmark-white.svg");
 }
 
+.item-description-free li {
+    margin: 0;
 
+	list-style: none;
+	background-image: url("../img/checkmarkwhite.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 13px;
+}
+
+.item-description li {
+    margin: 0;
+
+	list-style: none;
+	background-image: url("../img/checkmarkgreen.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 13px;
+}
 
 .visually-hidden {
     position: absolute;
@@ -113,16 +140,6 @@ h1 {
 }
 
 
-
-.header-navigation a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 15px;
-    line-height: 18px;
-
-    color: #4F4F4F;
-}
 
 .footer-navigation a {
     font-family: Roboto;
