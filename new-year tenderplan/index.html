@@ -4,15 +4,19 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Новогодний Тендерплан</title>     
+    <title>Новогодний Тендерплан</title>   
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <header>
-        <nav>
-            <a>
-                <img src="img/tenderplanLogo.svg" width="209.37" height="42" alt="Логотип Тендерплана">
+        <nav class="header-navigation">
+            <a class="header-logo">
+                <img src="img/tenderplanLogo.svg" width="209" height="42" alt="Логотип Тендерплана">
             </a>
-            <ul>
+            <ul class="header-navigation-list">
                 <li><a href="main.html">Главная</a></li>
                 <li><a href="search.html">Поиск</a></li>
                 <li><a href="control.html">Управление</a></li>
@@ -20,15 +24,15 @@
                 <li><a href="law.html">Тендерное сопровождение</a></li>
                 <li><a href="rates.html">Тарифы</a></li>
             </ul>
-            <a href="registration.html">Регистрация</a>
-            <a href="login.html">Войти</a>
+            <a href="registration.html" class="login-link">Регистрация</a>
+            <a href="login.html" class="registration-link">Войти</a>
         </nav>
     </header>
         
     <main>
 <!-- Скидка -->
         <section>
-            <h1>Заберите свой новогодний подарок от Тендерплана!</h1>
+            <h1 class="main-">Заберите свой новогодний подарок от Тендерплана!</h1>
             <p>Только в Тендерплане Новогодние подарки каждому!Скидки и бесплатные месяцы уже ждут тебя.</p>
             <a href="#">Забрать подарок</a>
 
