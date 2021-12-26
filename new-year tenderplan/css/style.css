@@ -13,11 +13,35 @@ body {
     background-color: white;
 }
 
-a {
-    text-decoration: none;
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 110%;
+
+    display: flex;
+    align-items: center;
+
+    color: #212353;
 }
 
+.main-rates h2 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
 
+    align-items: center;
+    text-align: center;
+
+    color: #212353;
+}
+
+.rates-list:first-child {
+    background: #7854F7;
+}
 
 .visually-hidden {
     position: absolute;
@@ -29,4 +53,46 @@ a {
     padding: 0;
     clip: rect(0 0 0 0);
     overflow: hidden;
+}
+
+.main-header {
+    background-color: white;
+}
+
+.header-navigation a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #4F4F4F;
+}
+
+.footer-navigation a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #56688A;
+}
+
+.list-first-telephone {
+    font-family: 'Helvetica', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #000000;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
 }
