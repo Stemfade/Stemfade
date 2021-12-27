@@ -114,7 +114,7 @@ h1 {
 	background-image: url("../img/checkmarkwhite.png");
 	background-repeat: no-repeat;
 	background-position: left center;
-	background-size: 13px;
+	background-size: 15px;
 }
 
 .item-description li {
@@ -161,3 +161,39 @@ h1 {
     color: #000000;
 }
 
+.list-second-telephone,
+.list-email {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+
+    color: #000000;
+}
+
+.registry-text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #8495AD;
+}
+
+.footer-copyright {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    align-items: center;
+    text-align: right;
+}
+
+.icon {
+    width: 34px;
+    height: 34px;
+}
