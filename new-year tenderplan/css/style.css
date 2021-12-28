@@ -74,7 +74,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.rates-price {
+.rates-free:first-child  {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -96,7 +96,7 @@ h1 {
     color: #000000;
 }
 
-.rates-description {
+.rates-description-free {
     
     font-family: Roboto;
     font-style: normal;
