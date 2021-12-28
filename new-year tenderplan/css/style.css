@@ -42,10 +42,29 @@ h1 {
     font-size: 80px;
     line-height: 110%;
 
-    display: flex;
-    align-items: center;
 
     color: #212353;
+}
+
+.navigation-login {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+
+
+    color: #FFFFFF;
+}
+
+.navigation-registration {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+
+    color: #675ADF;
 }
 
 .main-rates h2 {
@@ -55,10 +74,18 @@ h1 {
     font-size: 40px;
     line-height: 130%;
 
-    align-items: center;
-    text-align: center;
 
     color: #212353;
+}
+
+.rates-item {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
+
+    color: #414141;
 }
 
 .rates-item:first-child {
@@ -69,18 +96,25 @@ h1 {
     font-size: 32px;
     line-height: 37px;
 
-    text-align: center;
 
     color: #FFFFFF;
 }
 
-.rates-free:first-child  {
+.rates-price {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 40px;
+
+    color: #414141;
+}
+
+.rates-free  {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
-
-    text-align: center;
 
     color: #FFFFFF;
 }
@@ -91,9 +125,18 @@ h1 {
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
-    text-align: center;
 
     color: #000000;
+}
+
+.rates-button {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #7463EB;
 }
 
 .rates-description-free {
@@ -105,8 +148,47 @@ h1 {
     line-height: 14px;
 
     color: #FFFFFF;
+
+    list-style-image: url("../img/checkmarkwhite.svg");
 }
 
+.rates-description {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+
+    color: #6B7280;
+
+    list-style-image: url("../img/checkmarkgreen.svg");
+}
+
+.rates-economy {
+    color: #68BB07;
+}
+
+.rates-oldPrice {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-decoration-line: line-through;
+
+    color: #6B7280;
+}
+
+.rates-monthGift {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
+
+    color: #FFFFFF;
+}
 
 .visually-hidden {
     position: absolute;
@@ -120,6 +202,55 @@ h1 {
     overflow: hidden;
 }
 
+
+::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: #9CA8BE;
+
+}
+
+.button {
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    /* identical to box height, or 111% */
+
+    text-align: center;
+    letter-spacing: 0.2px;
+
+    color: #FFFFFF;
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.userAgreement {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4B5E80;
+}
+
+.userAgreement-link {
+    color: #7D6CF4;
+}
 
 
 .footer-navigation a {
