@@ -61,7 +61,7 @@ h1 {
     color: #212353;
 }
 
-.list-item:first-child {
+.rates-item:first-child {
     background: #7854F7;
     font-family: Roboto;
     font-style: normal;
@@ -74,7 +74,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.item-price {
+.rates-price {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
@@ -85,7 +85,7 @@ h1 {
     color: #FFFFFF;
 }
 
-.item-startnow {
+.rates-startnow {
     font-family: Roboto;
     font-style: normal;
     font-weight: 500;
@@ -96,7 +96,7 @@ h1 {
     color: #000000;
 }
 
-.item-description-free {
+.rates-description {
     
     font-family: Roboto;
     font-style: normal;
@@ -107,25 +107,6 @@ h1 {
     color: #FFFFFF;
 }
 
-.item-description-free li {
-    margin: 0;
-
-	list-style: none;
-	background-image: url("../img/checkmarkwhite.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 15px;
-}
-
-.item-description li {
-    margin: 0;
-
-	list-style: none;
-	background-image: url("../img/checkmarkgreen.png");
-	background-repeat: no-repeat;
-	background-position: left center;
-	background-size: 13px;
-}
 
 .visually-hidden {
     position: absolute;
@@ -151,7 +132,7 @@ h1 {
     color: #56688A;
 }
 
-.list-first-telephone {
+.contacts-first-telephone {
     font-family: 'Helvetica', sans-serif;
     font-style: normal;
     font-weight: normal;
@@ -161,8 +142,8 @@ h1 {
     color: #000000;
 }
 
-.list-second-telephone,
-.list-email {
+.contacts-second-telephone,
+.contacts-email {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
