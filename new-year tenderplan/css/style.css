@@ -25,6 +25,7 @@ a {
     background-color: white;
 }
 
+
 .header-navigation a {
     font-family: Roboto;
     font-style: normal;
@@ -33,6 +34,28 @@ a {
     line-height: 18px;
 
     color: #4F4F4F;
+}
+
+.header-navigation img{
+    margin-left: 75px;
+    margin-top: 19px;
+    width: 209px;
+    height: 42px;
+    font-size: initial;
+    line-height: initial;
+}
+
+.navigation-list li,
+.navigation-list {
+    display: inline;
+    padding-top: 29px;
+}
+
+.navigation-list li:first-child {
+    margin-left: 218px;
+}
+.navigation-list li{
+    margin-right: 34px;
 }
 
 h1 {
