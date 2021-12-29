@@ -27,9 +27,6 @@ a {
 
 
 .header-navigation a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 15px;
     line-height: 18px;
 
@@ -59,19 +56,14 @@ a {
 }
 
 h1 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 80px;
     line-height: 110%;
-
 
     color: #212353;
 }
 
 .navigation-login {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
@@ -81,8 +73,6 @@ h1 {
 }
 
 .navigation-registration {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 18px;
@@ -91,8 +81,6 @@ h1 {
 }
 
 .main-rates h2 {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 40px;
     line-height: 130%;
@@ -102,9 +90,6 @@ h1 {
 }
 
 .rates-item {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 32px;
     line-height: 37px;
 
@@ -113,9 +98,6 @@ h1 {
 
 .rates-item:first-child {
     background: #7854F7;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 32px;
     line-height: 37px;
 
@@ -124,9 +106,6 @@ h1 {
 }
 
 .rates-price {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
     font-size: 34px;
     line-height: 40px;
 
@@ -134,8 +113,6 @@ h1 {
 }
 
 .rates-free  {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: bold;
     font-size: 32px;
 
@@ -143,8 +120,6 @@ h1 {
 }
 
 .rates-startnow {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -153,8 +128,6 @@ h1 {
 }
 
 .rates-button {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 21px;
@@ -163,9 +136,6 @@ h1 {
 }
 
 .rates-description-free {
-    
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -176,8 +146,6 @@ h1 {
 }
 
 .rates-description {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 14px;
@@ -192,9 +160,6 @@ h1 {
 }
 
 .rates-oldPrice {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 21px;
     text-decoration-line: line-through;
@@ -203,8 +168,6 @@ h1 {
 }
 
 .rates-monthGift {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
@@ -227,12 +190,9 @@ h1 {
 
 
 ::placeholder {
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
-    /* identical to box height */
 
     display: flex;
     align-items: center;
@@ -242,13 +202,9 @@ h1 {
 }
 
 .button {
-    
-    font-family: Roboto;
-    font-style: normal;
     font-weight: 500;
     font-size: 18px;
     line-height: 20px;
-    /* identical to box height, or 111% */
 
     text-align: center;
     letter-spacing: 0.2px;
@@ -262,9 +218,6 @@ h1 {
 }
 
 .userAgreement {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 
@@ -277,9 +230,6 @@ h1 {
 
 
 .footer-navigation a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 
@@ -298,9 +248,6 @@ h1 {
 
 .contacts-second-telephone,
 .contacts-email {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 16px;
     line-height: 19px;
 
@@ -308,9 +255,6 @@ h1 {
 }
 
 .registry-text {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 
@@ -318,9 +262,6 @@ h1 {
 }
 
 .footer-copyright {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 16px;
 
